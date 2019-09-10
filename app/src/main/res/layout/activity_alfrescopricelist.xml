@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alfrescopricelist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.foodie.foodie10.alfrescopricelist">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Now"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:onClick="foodmart"
+        android:id="@+id/order1"
+        android:background="@drawable/designbutton"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:onClick="googlemap"
+        android:id="@+id/order2"
+        android:background="@drawable/designbutton"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp">
+    </ListView>
+</RelativeLayout>

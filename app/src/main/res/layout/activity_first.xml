@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.foodie.foodie10.first">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/open"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Area"
+        android:textSize="20dp"
+        android:textColor="#432121"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="125dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="340dp"
+        android:id="@+id/inputarea"
+        android:hint="*area"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textStyle="bold"
+        android:layout_marginTop="385dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/search"
+        android:onClick="buttonClicked"
+        android:background="@drawable/designbutton"
+        />
+
+
+</RelativeLayout>
