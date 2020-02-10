@@ -9,3 +9,7 @@ A android based platform for finding out restaurents (initially for Dhaka city).
 >Ordering food instantly and finding out the location
 
 Used Tools : Java, XML, SQLite, Android Studio
+
+<h2>Snap of Project</h2>
+
+![](foodie.jpg)
